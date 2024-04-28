@@ -897,3 +897,170 @@
 - `Answer`
 	- `#B -> #Cloud VPN.`
 ****
+##### Question - 51
+`Tags: #GKE, #Firebase, #App Engine` 
+- `Statement`
+	- `Your organization is developing a mobile application and wants to select fully featured cloud based compute platform for it.`
+	- `Which GCP product to use?`
+- `Options`
+	- `A. Google Kubernetes Engine.`
+	- `B. Firebase.`
+	- `C. Cloud functions.`
+	- `D. App Engine.`
+- `Answer`
+	- `#B -> Firebase.`
+- `Explanation`
+	- `It is a google's mobile development platform.`
+****
+
+##### Question - 52
+`Tags: #Cloud SQL, Cloud Spanner, Firestore.`
+- `Statement`
+	- `Your organization is developing a global multi-player game and requires a database that can consistently capture player statistics. The most critical requirement of the database is that it can serve information for game leaderboards and return consistent rankings at any given time across game players all over the world. The game is rapidly developing a following with almost unlimited growth in the number of players. `
+	- `Which Google Cloud product should the organization choose.`
+- `Options`
+	- `A. Firestore.`
+	- `B. Cloud Spanner.`
+	- `C. Cloud SQL.`
+	- `D. Bare metal.`
+- `Answer`
+	- `#B -> Cloud Spanner.`
+- `Explanation`
+	- `#A -> Scalable NoSQL DB realtime data sync.`
+	- `#B -> RDBMS provides strong consistency and and high availability (99.99%).`
+****
+
+##### Question - 53
+`Tags: #AppEngine, #GKE`
+- `Statement`
+	- `Your company has been using a shared facility for data storage and will be migrating Google cloud. One of the internal applications uses Linux custom images that needs to be migrated. `
+	- `Which google cloud product should you use to maintain custom images?`
+- `Options`
+	- `A. App Engine flexible env.`
+	- `B. Compute Engine.`
+	- `C. App Engine Standard env.`
+	- `D. GKE.`
+- `Answer`
+	- `#B -> Compute Engine.`
+- `Explanation`
+	- `You can use one of the following image types. 1. Public and custom images.`
+****
+
+##### Question - 54
+`Tags: #Firestore, #Cloud BigTable, #MemoryStore`
+- `Statement`
+	- `A news media giant with over 200 publications plans to build a scalable, secure, and serverless document database with a powerful query engine that can be added with a mobile and web apps. `
+	- `Which cloud product or service should org use?`
+- `Options`
+	- `A. Memory Store.`
+	- `B. Cloud BigTable.`
+	- `C. Cloud SQL.`
+	- `D. Firestore.`
+- `Answer`
+	- `#D -> Firestore.`
+- `Explanation`
+	- `#D -> NoSQL document DB and can be added in mobile/ web apps.`
+	- `#A -> MemoeryStore is an in-memory data store used to build application caches.`
+****
+
+##### Question - 55
+`Tags: #Firestore, #Cloud BigTable, #MemoryStore`
+- `Statement`
+	- `Your organization wants to migrate its data management solutions to Google cloud becuase it needs to dynamically scale up/ down and run transactional SQL queries against historical data at scale. `
+	- `Which cloud product should your org use?`
+- `Options`
+	- `A. BigQuery.`
+	- `B. Cloud BigTable.`
+	- `C. Pub/ Sub.`
+	- `D. Cloud Spanner.`
+- `Answer`
+	- `#D -> Cloud Spanner.`
+- `Explanation`
+	- `#D -> Fully managed, mission critical RDBMS. OLTP db with high availability and consistency.`
+****
+
+##### Question - 56
+`Tags: #SharedResponsibilityModel`
+- `Statement`
+	- `Which of the following  are always the responsibility of customers using public cloud? (2 answers)`
+- `Options`
+	- `A. Web client protection.`
+	- `B. Data Protection.`
+	- `C. N/W Control.`
+	- `D. Patch Management.`
+- `Answer`
+	- `#A and #B`
+- `Explanation`
+	- `Client`
+		- `#A -> Securing access web content is customer's responsibility.`
+		- `#B -> Comliance, adherence of data is customer's responsibility.`
+	- `Cloud Provider`
+		- `N/w control, management,is cloud provider's responsibility, sometimes shared.`
+		- `Patch management is shared responsibility in IaaS and PaaS.`
+****
+
+##### Question - 57
+`Tags: #VisionAPI`
+- `Statement`
+	- `Your organziation needs to categorize objects in a large group of static images using machine learning. Which google cloud product or service should your organization use?`
+- `Options`
+	- `A. BigQuery ML.`
+	- `B. AutoML video intelligence.`
+	- `C. Cloud Vision API.`
+	- `D. AutoML tables.`
+- `Answer`
+	- `#C`
+- `Explanation`
+	- `Vision API can assign labels to images and classify them into millions of predefined categories.`
+****
+
+##### Question - 58
+`Tags: #Logs`
+- `Statement`
+	- `A DevOPS team is responsible for maintaining and analysing system and application logs for an application running across several instances on Google Cloud Platform. `
+	- `What steps should the team take to ensure the integrity of the logs generated on these instances? (2 answers)`
+- `Options`
+	- `A. Implement log versioning on log buckets in cloud storage.`
+	- `B. Copy the logs to another project with different owner.`
+	- `C. Set the logging level to only collect log output for critical messages.`
+	- `D. Export all logs files to BigQuery.`
+- `Answer`
+	- `#A and #B`
+- `Explanation`
+	- `Implement versioning so avoid losing or overwriting data.`
+	- `Copy to another project so 2 people have ownership.`
+****
+
+##### Question - 59
+`Tags: `
+- `Statement`
+	- `Which google cloud product is designed to reduce the risk of handling personally identifiable information?`
+- `Options`
+	- `A. Cloud Storage.`
+	- `B. Google Cloud Armor.`
+	- `C. Cloud Data Loss Prevention.`
+	- `D. Secret Manager.`
+- `Answer`
+	- `#C -> Cloud Data Loss Prevention`
+- `Explanation`
+	- `Discover, classify, and protect your most sensitive data.`
+****
+
+##### Question - 60
+`Tags: #Folders, #Projects, #Labels, #Tags.`
+- `Statement`
+	- `Your client has multiple ongoing projects and to remove conflicts has asked you to devise a way to segregate service level resources, such as compute, storage, and n/wking resources being used by various projects.`
+	- `Which of the following you should use?`
+- `Options`
+	- `A. Folders.`
+	- `B. Projects.`
+	- `C. Labels.`
+	- `D. Tags.`
+- `Answer`
+	- `#B -> Projects`
+- `Explanation`
+	- `#B -> Projects consists of service level resources such as compute, storage, n/wking.`
+	- `#A -> Folders are used for projects rather than resources.`
+	- `#C -> Labels are used to annotate resources.`
+	- `#D -> Tag is a string of characters added to a resource tags field.`
+****
