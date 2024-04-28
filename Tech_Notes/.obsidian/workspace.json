@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "81f2af7c600812ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e98603f1854f8a4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cd65c5557a60b639",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GCP/CDL/Dumps 2024.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "c8c8f8cafab2c8b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b6a99c00f0ce32b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GCP/CDL/Dumps 2024.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "34ebcf35b49ac101",
+    "type": "split",
+    "children": [
+      {
+        "id": "619a13d5d7fce6a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "34e25100082082be",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f49d636da9bc028c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dd5319728dd640cd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "f0a3a175f30a51ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "5f897cd260c270b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3057418de6e50764",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "GCP/CDL/Dumps 2024.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b98d7559037ec3e8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "GCP/CDL/Dumps 2024.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "60a278b1da911e85",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6a8cc333329e6709",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "GCP/CDL/Dumps 2024.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "cd65c5557a60b639",
+  "lastOpenFiles": [
+    "Daily notes/2024-04-28.md",
+    "GCP/CDL/Dumps 2024.md",
+    "GCP/CDL/CDL Material.md",
+    "Interview Preparations/Spark, PySpark/Basics of PySpark.md",
+    "Interview Preparations/Spark, PySpark/Table of Contents.md",
+    "Interview Preparations/Spark, PySpark/Functions.md",
+    "Interview Preparations/Spark, PySpark/Hands-Ons.md",
+    "Interview Preparations/Spark, PySpark/images/data skewness.png",
+    "SQL/Fundamentals.md",
+    "Interview Preparations/Spark, PySpark/images/secret_santa_data.png",
+    "Interview Preparations/Spark, PySpark/images/3 2.png",
+    "SQL/self-join.png",
+    "Interview Preparations/Spark, PySpark/images/Pasted image 20240422205304.png",
+    "Interview Preparations/Spark, PySpark/images/5.png",
+    "Interview Preparations/Spark, PySpark/images/3.png",
+    "Interview Preparations/Spark, PySpark/images/4.png",
+    "Interview Preparations/Spark, PySpark/images/2.png",
+    "Interview Preparations/Spark, PySpark/images/1.png",
+    "Daily notes/2024-04-22.md",
+    "Obsedian/Table of contents.md",
+    "Interview Preparations/Spark, PySpark/images",
+    "Functions^edf666.md",
+    "Interview Preparations/Spark, PySpark",
+    "Daily notes/2024-04-18.md",
+    "Interview Preparations",
+    "Obsedian/Terminologies.md",
+    "Obsedian/Headings Document Extracted.md",
+    "Obsedian/Shortcuts.md",
+    "I am one '#'.md",
+    "Daily notes",
+    "Obsedian",
+    "Table Of Content.md",
+    "React-Wings/Java.md",
+    "React-Wings/Object oriented language..md",
+    "here.md",
+    "New.md",
+    "Notes.md",
+    "React-Wings",
+    "GCP - Cloud Digital Leader 4.docx",
+    "GCP - Cloud Digital Leader 3.md",
+    "~$P - Cloud Digital Leader 3.docx",
+    "GCP - Cloud Digital Leader 3.docx",
+    "GCP CDL Word Notes.md",
+    "GCP - Cloud Digital Leader 2.docx",
+    "Welcome.md"
+  ]
+}
