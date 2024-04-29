@@ -1064,3 +1064,352 @@
 	- `#C -> Labels are used to annotate resources.`
 	- `#D -> Tag is a string of characters added to a resource tags field.`
 ****
+
+##### Question - 61
+`Tags: #Storage Transfer Service
+- `Statement`
+	- `Your organization in migrating google cloud. As part of that effort, it needs to move TBs of data from on-permises file servers to cloud storage. Your organization wants the migration process to be automated and to be managed by Google. Your organization has an exisiting dedicated interconnect connection that it wants to use.`
+	- `Which Google Cloud product or feature should your org use?`
+- `Options`
+	- `A. Storage Transfer Service.`
+	- `B. Migrate for anthos.`
+	- `C. BigQuery data transfer service.`
+	- `D. Transfer appliance.`
+- `Answer`
+	- `#A -> Storage Transfer Service`
+- `Explanation`
+	- `#A -> Fully managed, transfers data from on-prem file servers to cloud. It can transfer TBs of data quickly using your interconnect connection.`
+****
+
+##### Question - 62
+`Tags: #Cloud Interconnect
+- `Statement`
+	- `Your organization is looking for n/w connectivity with Google cloud between it's on-prem n/w and Google cloud. The n/w connectivity must allow encryted traffic to Google Cloud and have higher throughput.`
+	- `Which of the following n/wking solutions your should use?`
+- `Options`
+	- `A. Cloud VPN.`
+	- `B. Cloud Interconnect.`
+	- `C. Cloud Router.`
+	- `D. Traffic director.`
+- `Answer`
+	- `#B -> Cloud Interconnect`
+- `Explanation`
+	- `#B -> Extends your on-prem n/w to Google cloud n/w through low latency connection.`
+****
+
+##### Question - 63
+`Tags: #BigQuery
+- `Statement`
+	- `Your organization needs to analyze the data in order to gain insights into its daily operations. You want to only pay for the data you store and queries you perform. `
+	- `Which google cloud product your org should choose for its data analytics warehouse?`
+- `Options`
+	- `A. Cloud SQL.`
+	- `B. DataProc.`
+	- `C. Cloud Spanner.`
+	- `D. BigQuery.`
+- `Answer`
+	- `#D -> BigQuery`
+****
+
+##### Question - 64
+`Tags: #App Engine
+- `Statement`
+	- `You are managing the development of a new application. You need a solution that will meet the following requirements:`
+		- `The developers should focus on writing code.`
+		- `Deployments should be zero-configuration.`
+		- `The developers should not manage infrastructure.` 
+		- `The service should be scalable and accommodate surges in traffic without provisioning, patching, or monitoring.` `Applications should be safe from security threats.`
+	- `Which Google Cloud solution should you use?`
+- `Options`
+	- `A. App Engine.`
+	- `B. Cloud Functions.`
+	- `C. Confidential VMs.`
+	- `D. Eventarc.`
+- `Answer`
+	- `#A -> App Engine.`
+- `Explanation`
+	- `#A -> Fully managed, serverless, highly scalable and secure applications.`
+****
+
+##### Question - 65
+`Tags: #GKE`
+- `Statement`
+	- `Your organization wants to run a container-based application on Google Cloud. This application is expected to increase in complexity. You have a security need for fine-grained control of traffic between the containers. You also have an operational need to exercise fine-grained control over the application's scaling policies.`
+	- `What Google Cloud product or feature should your organization use?`
+	- `Which Google Cloud solution should you use?`
+- `Options`
+	- `A. Google Kubernetes Engine Cluster.`
+	- `B. App Engine.`
+	- `C. Cloud Run.`
+	- `D. Compute Engine virtual machines.`
+- `Answer`
+	- `#A -> Google Kubernetes Engine Cluster.`
+- `Explanation`
+	- `#A`
+		- `Deploy and manage container based applications.`
+		- `Fine grainer control over traffic and scaling policies.`
+****
+
+##### Question - 66
+`Tags: #Cloud Run`
+- `Statement`
+	- `A team of cloud engineers is working on developing and deploying a containerized application that will process and serve large amout of image data in cloud storage. The data must be invocable via requests or events. `
+	- `Which google cloud compute service should the team use so that there are no infra management problems?`
+- `Options`
+	- `A. Cloud Build.`
+	- `B. Cloud Cone.`
+	- `C. Cloud Run.`
+	- `D. Cloud Deploy.`
+- `Answer`
+	- `#C -> Cloud Run.`
+- `Explanation`
+	- `#C -> Cloud Run`
+		- `Fully managed, serverless.`
+		- `Development and deployment of containerzied application.`
+		- `Invocable via requests and events.`
+		- `No need to manage infra since it's a managed service.`
+****
+
+##### Question - 67
+`Tags: #Cloud SCC`
+- `Statement`
+	- `Which google cloud product or feature makes specific recommendations based on security risks and compliance violations?`
+- `Options`
+	- `A. Google Cloud Firewalls.`
+	- `B. Security Command Center.`
+	- `C. Cloud Deployment Manager.`
+	- `D. Google Cloud Armer.`
+- `Answer`
+	- `#B -> Security Command Center.`
+- `Explanation`
+	- `#B -> Security Command Center`
+		- `Security management and data risk assessment platform.`
+		- `Gain insights into Security Risks and Compliance Violations.`
+****
+
+##### Question - 68
+`Tags: #CDN`
+- `Statement`
+	- `Which of the following scenarios is not suitable for a CDN? (Choose 2 answers)`
+- `Options`
+	- `A. A website for a small construction company located in USA.`
+	- `B. A global retail company with customers in Europe and the Americas.`
+	- `C. A family history website with only a few visitors annually.`
+	- `D. A global media website that provides news in multiple languages.`
+- `Answer`
+	- `#A and #C`
+- `Explanation`
+	- `CDNs are especially useful for large, complex websites, or mobile apps with lots of dynamic content.`
+	- `A small company will most likely not need a CDN becuase its customers are geographically closer to server.`
+ ********
+##### Question - 69
+`Tags: #Anthos`
+- `Statement`
+	- `Which google cloud product provides a consisten platform for multi-cloud application deployments and extends other google cloud services to your organization's environment?`
+- `Options`
+	- `A. GKE.`
+	- `B. Virtual public cloud.`
+	- `C. Compute Engine.`
+	- `D. Anthos.`
+- `Answer`
+	- `#D`
+- `Explanation`
+	- `#D -> Anthos is a container platform to run modern apps anywhere at scale.`
+****
+
+##### Question - 70
+`Tags: #`reCAPTCHA
+- `Statement`
+	- `Your company's website enables users to upload images and input text to create memes of their choice. Lately, your have observed some suspicious traffic and want to protect your website from SPAM, specifically from Bots using the website.`
+	- `Which of the following should you use to protect your website from bots and ensure that it is being accessed only by human users?`
+- `Options`
+	- `A. reCAPTA enterprise.`
+	- `B. Policy troubleshooter.`
+	- `C. Web Risk.`
+	- `D. Cloud Identity.`
+- `Answer`
+	- `#A`
+- `Explanation`
+	- `#A
+		- `Prevents abusive activities on your sites.`
+****
+
+##### Question - 71
+`Tags: #Cloud Storage`
+- `Statement`
+	- `Your org wants an economical solution to store data such as files, graphical images, and videos and to share them securely.`
+	- `Which google cloud product or service should your org use?`
+- `Options`
+	- `A. Cloud SQL.`
+	- `B. Cloud Spanner.`
+	- `C. Cloud Storage.`
+	- `D. BigQuery.`
+- `Answer`
+	- `#C -> Cloud Storage`
+- `Explanation`
+	- `#C`
+		- `Scalable and Durable object storage service.`
+		- `Typically used to store images, videos, backups, and logs.`
+****
+
+
+##### Question - 72
+`Tags: #Serverless`
+- `Statement`
+	- `A multinational food delivery startup has moved its applications to the cloud. The head of AppDev wants to introduce a new service that analyses customer preferences based on previous orders and suggests to them what to order. `
+	- `Which cloud computing model would help developers create service while freeing them of infra and management risks?`
+- `Options`
+	- `A. Serverless.`
+	- `B. IoT.`
+	- `C. High performance computing.`
+	- `D. Edge computing.`
+- `Answer`
+	- `#A -> Serverless.`
+- `Explanation`
+	- `#C`
+		- `Build code without managing infra.`
+		- `Event driven services.`
+****
+
+
+
+##### Question - 73
+`Tags: #BigQueryML`
+- `Statement`
+	- `Your organization wants to predict the behvior of visitors to its public website. To do that, you have decided to build an ML model. Your team has database related skills but basic ML skills, and would like to use those DB skills.`
+	- `Which Google product your org should use?`
+- `Options`
+	- `A. BigQuery.`
+	- `B. Look ML.`
+	- `C. TensorFlow.`
+	- `D. Cloud SQL.`
+- `Answer`
+	- `#A -> BigQuery ML.`
+- `Explanation`
+	- `#A -> BigQuery ML`
+		- `Execute ML models in using standard SQL query.`
+		- `Do ML using SQL skills.`
+		- `No advanced ML knowledge.`
+****
+##### Question - 74
+`Tags: #Elasticity, #Load Balancing, #Fault Tolerance`
+- `Statement`
+	- `Which of the following cloud concepts refers to increasing or decreasing compute resources based on demand?`
+- `Options`
+	- `A. Elasticity.`
+	- `B. Load Balance.`
+	- `C. Fault tolerance.`
+	- `D. High Availability.`
+- `Answer`
+	- `#A -> Elasticity.`
+- `Explanation`
+	- `#A -> Elasticity`
+		- `System's ability to provision and de-provision the resources in autmated manner.`
+	* `#C -> Ability of system to work even if some component fails.`
+	* `#B -> Distribute traffic across multiple servers`
+****
+
+
+
+##### Question - 75
+`Tags: #Database migration service`
+- `Statement`
+	- `Your org is moving to the google cloud. As part of it, need to migrate applications' working DB from another cloud provider to Cloud SQL. The DB runs on the MySQL engine. The migration must cause the minimal disruption to users. Data must be secured while in transit.`
+- `Options`
+	- `A. BigQuery Data Transfer Service.`
+	- `B. MySQL batch insert.`
+	- `C. Database migration service.`
+	- `D. Cloud Composer.`
+- `Answer`
+	- `#C -> Database migration service.`
+- `Explanation`
+	- `#C`
+		- `Protect the data in transit.`
+		- `All data is encrypted on cloud.`
+****
+
+
+
+##### Question - 76
+`Tags: #Projects`
+- `Statement`
+	- `Your organization is developing and deploying an application on Google Cloud. Tracking your Google Cloud spending needs to stay as simple as possible.`
+	* `What should you do to ensure that workloads in the development environment are fully isolated from production workloads.`
+- `Options`
+	- `A. Apply a unique tag to development resources.`
+	- `B. Associate the development resources with their own network.`
+	- `C. Associate the development resources with their own billing account.`
+	- `D. Put the development resources in their own project.`
+- `Answer`
+	- `#D -> Put the development resources in their own project.`
+- `Explanation`
+	- `#D`
+		- `Create separate projects for your development and production environments. Projects provide a logical isolation boundary and allow you to manage resources independently..`
+****
+##### Question - 77
+`Tags: #Hypervisor, #Anthos, #Migration`
+- `Statement`
+	- `Your company is running the majority of its workloads in a co-located data center. The workloads are running on virtual machines (VMs) on top of a hypervisor and use either Linux or Windows server editions. As part of your company's transformation strategy, you need to modernize workloads as much as possible by adopting cloud-native technologies. You need to migrate the workloads into Google Cloud.`
+	* `What should you do?`
+- `Options`
+	- `A. Export the VMs into VMDK format, and import them Compute Engine`
+	- `B. Export the VMs into VMDK format, and import them into Google Cloud VMware Engine`
+	- `C. Migrate the workloads using Migrate for Compute Engine` 
+	- `D. Migrate the workloads using Migrate for Anthos`
+
+- `Answer`
+	- `#D -> Migrate the workloads using Migrate for Anthos.`
+****
+
+
+
+##### Question - 78
+`Tags: #Hypervisor, #ComputeEngine`
+- `Statement`
+	- `Your organization is running all of its workload in a private cloud on top of a hypervisor. Your org has decided it wants to move to Google cloud as quick as possible. Your org wants minimal changes to the current environment, while using the maximum amout of managed services google offers.`
+	* `What should your organization do?`
+- `Options`
+	- `A. Migrate the workloads to Google cloud VMWare Engine.`
+	- `B. Migrate workloads to compute engine.`
+	- `C. Migrate workloads to bare metal.`
+	- `D. Migrate workload to GKE.`
+- `Answer`
+	- `#B -> Migrate to compute engine.`
+- `Explanation`
+	- `#B`
+		- `Lift and shift workloads at scale.`
+		- `Minimal changes and risk.`
+****
+##### Question - 79
+`Tags: #Support`
+- `Statement`
+	- `Your organization is releasing its first publically available application in Google Cloud. The application is critical to your business and customers requires a 2-hour SLA.`
+	* `How should your org setup support to minimise the costs?`
+- `Options`
+	- `A. Enroll in preminum support.`
+	- `B. Enroll in enhanced support.`
+	- `C. Enroll in standard support.`
+	- `D. Enroll in basic support.`
+- `Answer`
+	- `#B -> Enhanced support`
+- `Explanation`
+	- `Enhanced`
+		- `High level of support for critical applications.`
+		- `Faster response time.`
+	- `Standard - 4hr, Enhanced: 1hr, Premium: 15min`
+****
+##### Question - 80
+`Tags: #Identity Platform`
+- `Statement`
+	- `Your organization offers public mobile apps and websites. You want to migrate to a Google cloud based solution for checking and maintaining yours users' usernames and passwords and controlling their access to different resources based on their identity?`
+	* `Which should your org choose?`
+- `Options`
+	- `A. VPN tunnels.`
+	- `B. Identity platforms.`
+	- `C. Compute engine firewall rules.`
+	- `D. Private google access.`
+- `Answer`
+	- `#B -> Identity platform.`
+- `Explanation`
+	- `Identity platform: It is a solution for managing the identities of users and devices in a centralized fashion.`
+****
