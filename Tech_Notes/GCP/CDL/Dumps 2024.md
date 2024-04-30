@@ -1413,3 +1413,132 @@
 - `Explanation`
 	- `Identity platform: It is a solution for managing the identities of users and devices in a centralized fashion.`
 ****
+##### Question - 81
+`Tags: #BigQuery ML`
+- `Statement`
+	- `Which cloud service or feature lets you build ML models using standard SQL and data in DWH?`
+	* `Which should your org choose?`
+- `Options`
+	- `A. BigQuery ML.`
+	- `B. TensorFlow.`
+	- `C. AutoML tables.`
+	- `D. Cloud BigTable ML.`
+- `Answer`
+	- `#A -> BigQuery ML.`
+****
+##### Question - 82
+`Tags: #Sustained Use Discount`
+- `Statement`
+	* `Your organization runs an application on virtual machines in Google Cloud. This application processes incoming images. This activity takes hours to create a result for each image. The workload for this application normally stays at a certain baseline level, but at regular intervals it spikes to a much greater workload. Your organization needs to control the cost to run this application.?`
+	* `What should your org do?`
+- `Options`
+	- `A. Purchase committed use discounts for the baseline load.`
+	- `B. Purchase committed use discounts for the expected spike load.`
+	- `C. Leverage sustained use discounts for your virtual machines.`
+	- `D. Run the workload on preemptible VM instances.`
+- `Answer`
+	- `#C-> Leverage sustained use discounts for your virtual machines.`
+- `Explanation`
+	- `Sustained Use Discount: Longer you run a VM instance in any given month, the bigger discount you will get from the list price.`
+****
+##### Question - 83
+`Tags: #GCP`
+- `Statement`
+	* `Your organization is planning to migrate to Google cloud. What is the best practice when intially configuring Google cloud env?`
+- `Options`
+	- `A. Create a project via google cloud console per department in your org.`
+	- `B. Define your resource hierarchy with an org node on top.`
+	- `C. Create projects based on team members's requests.`
+	- `D. Make every member of your company the project owner.`
+- `Answer`
+	- `#B-> Define your resource hierarchy with an org node on top.`
+****
+##### Question - 84
+`Tags: #CUD, #Discount`
+- `Statement`
+	* `Your organization runs many workloads in different Google Cloud projects, each linked to the same billing account. Each project's workload costs can vary from month to month, but the overall combined cost of all projects is relatively stable. Your organization needs to optimize its cost.`
+	* `What should your org do?`
+- `Options`
+	- `A. Purchase a commitment per project for each project's usual minimum.`
+	- `B. Create a billing account per project, and link each project to a different billing account.`
+	- `C. Turn on committed use discount sharing, and create a commitment for the combined usage.`
+	- `D. Move all workloads from all different projects into one single consolidated project.`
+- `Answer`
+	- `#C-> Turn on committed use discount sharing, and create a commitment for the combined usage.`
+- `Explanation`
+	- `Committed Use Discount (CUD):` 
+		- `Allow users to commit to a specific amount of usage for a Google Cloud Platform (GCP) service.`
+		- `Over a one or three-year term, in exchange for discounted pricing.`
+****
+##### Question - 85
+`Tags: #Compliance, #Security`
+- `Statement`
+	* `How should a multi-nantional organization that is migrating to Google cloud consider security and privacy regulations to ensure that it is in compliance with global standards?`
+- `Options`
+	- `A. Comply with data security and privacy regulations in geo region.`
+	- `B. Comply with regional standards for data security and privacy, as the supersede all international regulations.`
+	- `C. Comply with international standards for data security and privacy, becuase they supersede all regional regulations.`
+	- `D. Comply with regional data security regulations, becuase they are more complex than privacy standards.`
+- `Answer`
+	- `#A-> Comply with data security and privacy regulations in geo region.`
+****
+##### Question - 86
+`Tags: #Discount`
+- `Statement`
+	* `Your organization wants to optimize its use of google cloud discounts on VM based workloads. You plan to use 200 CPUs constantly for next 3 years, and you forecast that spikes of up to 300 CPUs will occur approx 30% of the time. `
+	* `What should you choose?`
+- `Options`
+	- `A. 1 year committed use discount for 200 CPUs.`
+	- `B. 3 years committed use discount for 300 CPUs.`
+	- `C. 3 years committed use discount for 200 CPUs.`
+	- `D. Regular pay as you go pricing.`
+- `Answer`
+	- `#C-> 3 years committed use discount for 200 CPUs.`
+- `Explanation:`
+	- `Note: When committed discount option is available, no question of pay as you go model.`
+****
+##### Question - 87
+`Tags: #n/w tier, #Cloud VPN, #Cloud NAT`
+- `Statement`
+	* `Your organziation needs to minimize how much it pays for data traffic from google n/w to internet. `
+	* `What should you choose?`
+- `Options`
+	- `A. Choose the standard service n/w tier.`
+	- `B. Choose the premium service n/w tier.`
+	- `C. Deploy cloud VPN.`
+	- `D. Deploy cloud NAT.`
+- `Answer`
+	- `#A-> Choose the standard service n/w tier.`
+- `Explanation:`
+	- `Premium tier is the default for all egress traffic and offers the highest performance, it might not be the best option when cost is a consideration. Standard tier is the more economical.`
+	- `Cloud VPN and Cloud NAT are both networking services that can be used to connect your Google Cloud resources to the internet. However, they do not directly affect the cost of data traffic from the Google network to the internet.`
+****
+##### Question - 88
+`Tags: #Artifact Registry, #Cloud Storage`
+- `Statement`
+	* `Your org wants to migrate from on-prem to google cloud. The on-prem env consistsof containers and VMs. Which google cloud product can help migrate  the container images and VM disks?`
+- `Options`
+	- `A. Compute Engine and FileStore.`
+	- `B. Artifact registry and Cloud Storage.`
+	- `C. DataFlow and BigQuery.`
+	- `D. Pub/ Sub and Cloud Storage.`
+- `Answer`
+	- `#B-> Artifact registry and Cloud Storage.`
+- `Explanation:`
+	- `Artifact Registry can manage container image migration and Cloud Storage can store virtual disk image.`
+****
+##### Question - 89
+`Tags: #IAM`
+- `Statement`
+	* `Your company security team manages access control to production systems using an LDAP directory group?`
+	* `How is this access control is managed in the google cloud production project?`
+- `Options`
+	- `A. Assign proper role to the service account in the project's IAM policy.`
+	- `B. Grant each user the roles/ IAM.serviceAccountUser role on service account that exist on Google group.`
+	- `C. Assign the proper role to the google group in the project's IAM policy.`
+	- `D. Create the project in a folder with the same name as the LDAP directory group.`
+- `Answer`
+	- `#C-> Assign the proper role to the google group in the project's IAM policy.`
+- `Explanation:`
+	- `Assigning roles to groups is the recommended best practice for controlling access.`
+****
