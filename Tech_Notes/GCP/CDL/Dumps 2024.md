@@ -1542,3 +1542,436 @@
 - `Explanation:`
 	- `Assigning roles to groups is the recommended best practice for controlling access.`
 ****
+##### Question - 90
+`Tags: #cost management`
+- `Statement`
+	* `Your organization wants to be sure that expenditures on cloud services are in line with the budget. `
+	* `Which two google cost management features will help your org gain greater visibility into its cloud resource costs? (2 answers)`
+- `Options`
+	- `A. Billing dashboard.`
+	- `B. Resource labels.`
+	- `C. Sustained use discount.`
+	- `D. Finance governance policies.`
+	- `E. Payments profile.`
+- `Answer`
+	- `#A and #B`
+- `Explanation:`
+	- `Billing dashboards: `
+		- `Graphical overview of your cloud spending.`
+		- `Organized by project, service.`
+		- `Track spending overtime, identify trends, troubleshoot spikes in cost.`
+	- `Resource labels:`
+		- `Allows you categorize, tag your cloud resources.`
+		- `Due to tags, you can analyse on different dimensions such as project, department, environment, etc.`
+****
+##### Question - 91
+`Tags: #DataFlow`
+- `Statement`
+	* `Your organization needs to process large amoutns of data from an online application that operates continuously. You do not want to be required to provision infra or create a server clusters.`
+	* `What should your org to choose?`
+- `Options`
+	- `A. Compute Engine with BigQuery.`
+	- `B. Dataproc.`
+	- `C. GKE with BigTable.`
+	- `D. DataFlow.`
+- `Answer`
+	- `#D`
+- `Explanation:`
+	- `DataFlow:`
+		- `Fully managed` 
+		- `Streaming data processing service`
+		- `Handle large amounts of data from continuous sources`. 
+		- `Serverless, no need to provision infra or create server cluster
+****
+##### Question - 92
+- `Statement`
+	* `Your organization needs to ensure that the google cloud resources of each of your department are segregated from one another. Each department has several environments of its own: development, testing, and production.`
+	* `Which strategy should your organization choose?`
+- `Options`
+	- `A. Create a project per department, and create a folder per environment in each project.`
+	- `B. Create a folder per department, and create a project per environment in each folder.`
+	- `C. Create a cloud identity domain per department , and create  a project per env in each domain.`
+	- `D. Create a cloud identity domain per environment, and create a project per department in each domain.`
+- `Answer`
+	- `#B`
+****
+##### Question - 93
+`Tags: #Region,#Project,#Tag,#Label`
+- `Statement`
+	* `Your organization is defining the resource hierarchy for its new application in Google Cloud. You need separate development and production environments. The production environment will be deployed in Compute Engine in two regions.`
+	* `Which structure should your organization choose?.`
+- `Options`
+	- `A. Create a single project for all environments. Use labels to segregate resources by environment.`
+	- `B. Create a single project for all environments. Use tags to segregate resources by environment.`
+	- `C. Create one project for the development environment and one project for the production environment.`
+	- `D. Create two projects for the development environment and two projects for the production environment (one for each region).`
+- `Answer`
+	- `#C` 
+- `Explanation:`
+	- `Option A and B - single project for all environments and relying on labels or tags to segregate resources. While labels and tags can be useful for organizing and categorizing resources, they may not provide the same level of isolation and control as separate projects.`
+****
+##### Question - 94
+`Tags: #committed use discount, #cloud billiing support`
+- `Statement`
+	* `Your organization to purchase a 3 year committed use discount, but accidently purchases a 1 year committed use discount instead.`
+	* `What should your organization should do?`
+- `Options`
+	- `A. Contact your financial insititution.`
+	- `B. Contact trust and safety.`
+	- `C. Contact cloud billing support.`
+	- `D. Contact technical support.`
+- `Answer`
+	- `#C` 
+**** 
+##### Question - 95
+`Tags: #IAM, #instance group, #compute engine`
+- `Statement`
+	* `Your organization needs to allow a production job to have access to BigQuery dataset. The production job is running on a compute engine instance that is part of an instance group.`
+	* `What should be included in the IAM policy on the BigQuery dataset?`
+- `Options`
+	- `A. The compute engine instance group.`
+	- `B. The project that owns the compute engine instance.`
+	- `C. The compute engine service account.`
+	- `D. The compute engine instance.`
+- `Answer`
+	- `#C` 
+****
+##### Question - 96
+`Tags: #anthos, #VM, #Compute Engine, #containers`
+- `Statement`
+	* `How do migrate for compute engine and migrate for anthos differ?`
+- `Options`
+	- `A. Unlike migrate for anthos, migrate for compute engine assumes that the migration should is VMware vSphere.`
+	- `B. Migrate for compute engine charges for ingress, but migrate for anthos does not.`
+	- `C. Migrate for compute engine is closed source, and migrate for anthos is open source.`
+	- `D. Migrate for anthos migrates to containers, and migrate for compute engine migrates to VM.`
+- `Answer`
+	- `#D`
+****
+##### Question - 97
+`Tags: #LDAP`
+- `Statement`
+	* `Your large and frequently changing organization's user information is stored in an on-premises LDAP database. The DB includes user passwords and group and org membership.`
+	* `How should your org provision Google accounts and groups to access Google Cloud resources?`
+- `Options`
+	- `A. Replicate the LDAP infra on compute engine.`
+	- `B. Use firebase auth REST API to create users.`
+	- `C. Use google cloud directory sync to create users.`
+	- `D. Use the identity platform REST API to create users.`
+- `Answer`
+	- `#C` 
+****
+##### Question - 98
+`Tags: #SLO, #Cost`
+- `Statement`
+	* `An organization is planning its cloud expenditure.`
+	* `What should the org do to control the costs?`
+- `Options`
+	- `A. Consider the cloud resource costs as capital expenditure in annual planning.`
+	- `B. Use only cloud resources; they have no cloud infra costs.`
+	- `C. Review cloud resource costs frquently because costs depend on usage.`
+	- `D. Access cloud resources costs only when SLO is not met by their cloud provider.`
+- `Answer`
+	- `#C` 
+- `Explanation`:
+	- `'Cloud Infrastructure' is not only physical. the resources like Cloud VPN, Internconnects, GCE, etc are all 'cloud infrastructure' resources.`
+****
+##### Question - 99
+`Tags: #ML`
+- `Statement`
+	* `An org is using a ML to make predictions. One of their datasets mistakenly includes mislabled data.`
+	* `How prediction will be impacted?`
+- `Options`
+	- `A. Increased risk of privacy leak.`
+	- `B. Increased risk of inaccuracy.`
+	- `C. Decreased model compatibility.`
+	- `D. Decreased model training time.`
+- `Answer`
+	- `#B`
+****
+##### Question - 100
+`Tags: #Cloud Spanner`
+- `Statement`
+	* `A global organization is developing an application to manage payments and online bank accounts in multiple regions. Each transition must be handled consistently in their DB, and they anticipate almost unlimited growth in the amount of data stored.`
+	* `Which google cloud product should be used?`
+- `Options`
+	- `A. Cloud SQL.`
+	- `B. Cloud Spanner.`
+	- `C. Cloud Storage.`
+	- `D. BigQuery.`
+- `Answer`
+	- `#B`
+****
+##### Question - 101
+- `Statement`
+	* `An e-commerce org is reviewing their cloud data storage.`
+	* `What type of raw data can they store in RDBMS without any processing?`
+- `Options`
+	- `A. Product inventory.`
+	- `B. Product photographs.`
+	- `C. Instructional videos.`
+	- `D. Customer chat history.`
+- `Answer`
+	- `#A`
+****
+##### Question - 102
+- `Statement`
+	* `An org wants to digitize and share the large volumes of historical text and images.`
+	* `Why is a public cloud a better option than an premises solution?`
+- `Options`
+	- `A. In-house hardware management.`
+	- `B. Provides physical encryption key.`
+	- `C. Cost effective at scale.`
+	- `D. Optimizes captial expenditure.`
+- `Answer`
+	- `#C`
+****
+##### Question - 103
+- `Statement`
+	* `An org wants to develop an application that can be personalized to user preferences throughout the year.`
+	* `Why should they build a cloud native application instead of modernizing their existing on-prem application?`
+- `Options`
+	- `A. Developers can rely on the cloud provider for all source code.`
+	- `B. Developers can launch new feautures in an agile way.`
+	- `C. IT managers can migrate existing application architecture without needing updates.`
+	- `D. IT managers can accelerate capital expenditure planning.`
+- `Answer`
+	- `#B`
+****
+##### Question - 104
+- `Statement`
+	* `Which technology allows org to run multiple computer OS on a single piece of hardware?`
+- `Options`
+	- `A. Hypervisor.`
+	- `B. Containers.`
+	- `C. Serverless computing.`
+	- `D. Open source.`
+- `Answer`
+	- `#A`
+- `Explanation`
+	- `Abstract underlying h/w from the host OS and apps and is the core tech behind virtualization.`
+	- `Allows a physical server to operate multiple VMs as guests run alongside each other.`
+	- `Each VM can run a different OS.`
+****
+##### Question - 105
+- `Statement`
+	* `An organization is making a strategic change to customer support in response to feedback. They planned to extend helpline availability hours.`
+	* `Why is the organization making this change?`
+- `Options`
+	- `A. Users expect the professional expertise.`
+	- `B. Users require personalization.`
+	- `C. Users expects always on services.`
+	- `D. Users require regional access.`
+- `Answer`
+	- `#C`
+****
+##### Question - 106
+- `Statement`
+	* `How does a large hotel chain benefit from stroring their customer reservation data in the cloud?`
+- `Options`
+	- `A. On-premises h/w access to transaction data.`
+	- `B. Realtime data transformation at scale within on-prem DB.`
+	- `C. Realtime business transaction accuracy at scale.`
+	- `D. Physical h/w access during peak demand.`
+- `Answer`
+	- `#C`
+****
+##### Question - 107
+- `Statement`
+	* `An org wants to transform multiple types of structured and unstructured data in the cloud from various sources. The data must be readily accessible for analysis and insights.`
+	* `Which cloud data storage system should the org use?`
+- `Options`
+	- `A. Relational DB.`
+	- `B. Private data center.`
+	- `C. Data field.`
+	- `D. Data warehouse.`
+- `Answer`
+	- `#D`
+- `Explanation`
+	- `DWH is used for the analysis and reporting.`
+****
+
+##### Question - 108
+- `Statement`
+	* `An org wants to use all available data to offer predictive suggestions on their website that improve over time.`
+	* `Which method should the org use?`
+- `Options`
+	- `A. Data automation.`
+	- `B. Trends analysis.`
+	- `C. ML.`
+	- `D. Multiple regression.`
+- `Answer`
+	- `#C`
+****
+
+##### Question - 109
+`Tags:#TAM` 
+- `Statement`
+	* `Google Enterprise support offers you __________.`
+- `Options`
+	- `A. More predictable rates and flexible config that role-based support.`
+	- `B. Fastest response times and opportunities to work directly with a dedicated TAM contact.`
+	- `C. Fastest response time.`
+	- `D. Ability to work directly with the TAM contact.`
+- `Answer`
+	- `#B`
+****
+
+##### Question - 110
+- `Statement`
+	* `Which google product generates highly personalized recommendations.`
+- `Options`
+	- `A. Recommendations ML.`
+	- `B. Recommendations OCR.`
+	- `C. Recommendations AI.`
+	- `D. Auto Recommendations.`
+- `Answer`
+	- `#C`
+****
+
+##### Question - 111
+- `Statement`
+	* `Which of the following statements about the GCP migration service and datastream is false?`
+- `Options`
+	- `A. Datastream is low latency and won't bog down your source database.`
+	- `B. Database Migration Service has integrations with services such as BigQuery, Cloud Spanner, Dataflow, and Data Fusion.`
+	- `C. With Database Migration Service, if you are migrating to a serverless option like Cloud SQL, then you don't have to worry about over- or under-provisioning..`
+	- `D. With Database Migration Service, you can start the process with just a few clicks and then enjoy continuous data replication from source to destination.`
+- `Answer`
+	- `#B`
+****
+
+##### Question - 112
+- `Statement`
+	* `Which of the following statements about GCP tools/ service is false?`
+- `Options`
+	- `A. You can find the latest ISO/ IEC certificates, SOC reports, and self assessment in the container registry.`
+	- `B. Container registry is tightly integrated with all google's container services.`
+	- `C. The resources found in the compliance reports manager tool can be used to aid your own company's reporting and compliance efforts.`
+	- `D. All of the GCP services receive independent verification for security, privacy, and compliance.`
+- `Answer`
+	- `#A`
+****
+
+##### Question - 113
+- `Statement`
+	* `Which of the following is not a level of organizational GCP support?`
+- `Options`
+	- `A. Ultra.`
+	- `B. Basic.`
+	- `C. Standard.`
+	- `D. Premium.`
+- `Answer`
+	- `#A`
+- `Explanation`:
+	- `basic, standard, enhanced, premium are correct lebels.`
+****
+
+
+##### Question - 114
+`Tags: #DataStream`
+- `Statement`
+	* `If you need to migrate the data in Oracle to a new type of database in GCP then, _____ might be a better choice than Database migration service.`
+- `Options`
+	- `A. Datastream.`
+	- `B. Data Fusion.`
+	- `C. Cloud Spanner.`
+	- `D. DataFlow.`
+- `Answer`
+	- `#A`
+- `Explanation`:
+	- `A -> Fully managed, serverless change data capture and replication service that simplifies data movement from multiple sources to Google Cloud.`
+****
+
+##### Question - 115
+`Tags: #TPU`
+- `Statement`
+	* `A ______ is a custom designed ASIC that is used for ML workloads.`
+- `Options`
+	- `A. Datastream.`
+	- `B. Cloud TPU.`
+	- `C. Cloud GPU.`
+	- `D. Container Registry.`
+- `Answer`
+	- `#B`
+- `Explanation`:
+	- `B -> Tensor Processing Unit (TPU) is a custom designed ASIC that is used for ML workloads.`
+****
+
+##### Question - 116
+`Tags: #container registry`
+- `Statement`
+	* `Which GCP tool offers an easy, centralized location to store and manage all your docker container images?`
+- `Options`
+	- `A. Compliance reports managed.`
+	- `B. Container registry.`
+	- `C. DB migration service.`
+	- `D. Cloud TPU.`
+- `Answer`
+	- `#B`
+- `Explanation`:
+	- `B -> Centralized location to store and manage docker images.`
+****
+
+##### Question - 117
+`Tags: #Translate AI`
+- `Statement`
+	* `Which google product is used to dynamically translate between languages?`
+- `Options`
+	- `A. Vision OCR.`
+	- `B. Natural Language.`
+	- `C. Text AI.`
+	- `D. Translation.`
+- `Answer`
+	- `#D`
+****
+
+##### Question - 118
+`Tags: #container registry`
+- `Statement`
+	* `Which of the following statements about GCP container registry is false?`
+- `Options`
+	- `A. It gives you partial control over who can access, view, or download images.`
+	- `B. Allows you access your images quickly and reliably.`
+	- `C. It allows you to flag outdated or compromised images and prevent them from being deployed in future.`
+	- `D. It helps increase the security of your images.`
+- `Answer`
+	- `#A`
+- `Explanation`
+	- `Increase security`
+	- `Complete control over who can access, view and download images.`
+	- `Flag outdated and compromised images`
+****
+
+##### Question - 119
+`Tags: #Cloud Spanner`
+- `Statement`
+	* `Your org is developing an application that will manage payments and online bank accounts located around the world. The most critical requirement for your database is that each transaction is handled consistently.`
+	* `Which google cloud product should your org choose?`
+- `Options`
+	- `A. Cloud SQL.`
+	- `B. Cloud Storage.`
+	- `C. Firestore.`
+	- `D. Cloud Spanner.`
+- `Answer`
+	- `#D`
+- `Explanation`
+	- `Fully managed relational DB.`
+	- `Proprietary RDB designed for scale.`
+****
+
+##### Question - 120
+`Tags: #Tensorflow`
+- `Statement`
+	* `An org is searching for an open source machine learning platform to build and deploy their own custom ML applications using TPUs.`
+	* `Which google cloud product should your org choose?`
+- `Options`
+	- `A. TensorFlow.`
+	- `B. BigQuery ML.`
+	- `C. Vision API.`
+	- `D. AutoML vision.`
+- `Answer`
+	- `#A`
+- `Explanation`
+	- `Free and open source s/w library for ML and AI.`
+****
