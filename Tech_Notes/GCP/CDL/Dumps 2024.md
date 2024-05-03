@@ -2293,3 +2293,51 @@
 - `Explanation`
 	- `NAT is option for securing Internet connection which is not ask. VM and other components are in cloud.`
 ****
+
+##### Question - 141
+`Tags: #Vision API`
+- `Statement`
+	* `You are managing a project for a large healthcare provider with 100+ clinics and hospitals across the European Union. Your client plans to develop an OCR application to digitize overall clinical records, including X-Rays and patients' health records. As part of the solution, it is decided that:`
+		* `Image files will be uploaded.
+		* `Text will be extracted from the image.`
+		* `The extracted text will be translated into English.`
+		* `The final ready text will be stored for further use.`
+	* `The client does not want any overhead and has asked you to use a Google Cloud product that can offer pre-trained machine learning models through REST APIs.`
+- `Options`
+	- `A. AutoML vision.`
+	- `B. Vision API.`
+	- `C. Cloud natural lanugage API.`
+	- `D. Vertex AI Vizier.`
+- `Answer`
+	- `#B`
+- `Explanation`
+	- `Vision API offered pre-trained ML models through RFCs and REST APIs. It offers solution to extract text from images, understand emotion, and more.`
+****
+
+##### Question - 142
+`Tags: #Cloud Tasks`
+- `Statement`
+	* `An org requires a fully managed, scalable queuing service that will help manage the execution, dispatch, and delivery of multiple distributed tasks.`
+	* `Which cloud solution the org to use?`
+- `Options`
+	- `A. Cloud scheduler.`
+	- `B. Cloud tasks.`
+	- `C. Service infra.`
+	- `D. Workflows.`
+- `Answer`
+	- `#B`
+- `Explanation`
+	- `Cloud tasks: Fully managed, scalable queuing service that could help manage the execution, dispatch, and delivery of multiple distributed tasks.`
+****
+
+##### Question - 143
+- `Statement`
+	* `How does the google cloud suggest that organizations use 3rd party identity providers to enable users access to Google Cloud with their corporate credentials?`
+- `Options`
+	- `A. By delegating responsibility to service accounts and groups.`
+	- `B. By implementing the principle of least privilege.`
+	- `C. By federating 3rd party identity providers with Google Cloud.`
+	- `D. By migrating unmanaged accounts to personal accounts.`
+- `Answer`
+	- `#C`
+****
