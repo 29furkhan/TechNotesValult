@@ -1975,3 +1975,321 @@
 - `Explanation`
 	- `Free and open source s/w library for ML and AI.`
 ****
+
+##### Question - 121
+`Tags: #Data Security`
+- `Statement`
+	* `An organization operates their entire IT infra from google cloud.`
+	* `What should they do to prepare the data breaches?`
+- `Options`
+	- `A. Reduce the reliance on multi-factor authentication.`
+	- `B. Data security is google's responsibility, hence preparation is minimal.`
+	- `C. Create an incident plan to mitigate impact.`
+	- `D. Strenthen their data center perimeter security.`
+- `Answer`
+	- `#C`
+- `Explanation`
+	- `Data security is a shared responsibility between google and customer.`
+****
+
+
+##### Question - 122
+`Tags: #VMs`
+- `Statement`
+	* `An organization wants to migrate legacy applications currently hosted in their data center to the cloud. The current architecture dictates that each applicaiton needs its own OS instead of sharing an OS.`
+	* `Which infra solution should they use?`
+- `Options`
+	- `A. VMs.`
+	- `B. Open source.`
+	- `C. Serverless computing.`
+	- `D. Containers.`
+- `Answer`
+	- `#A`
+- `Explanation`
+	- `VMs would be the best infra solution given the requirement.`
+****
+
+
+##### Question - 123
+`Tags: #ML`
+- `Statement`
+	* `An organization is training a ML model to predict extreme weather events in their country.`
+	* `How should they collect data to maximize predicton accuracy?`
+- `Options`
+	- `A. Collect all weather data evenly across all cities.`
+	- `B. Collect all weather data primarily from at-risk cities.`
+	- `C. Collect extreme weather data evenly across all cities.`
+	- `D. Collect extreme weather data primarily from at-risk cities.`
+- `Answer`
+	- `#A`
+****
+
+
+##### Question - 124
+`Tags: #Cloud Logging`
+- `Statement`
+	* `An organization needs to search the application's source code to identify a potential issue. The applicaiton is distributed across multiple containers.`
+	* `Which google cloud product should the org use?`
+- `Options`
+	- `A. Google cloud console.`
+	- `B. Cloud trace.`
+	- `C. Cloud monitoring.`
+	- `D. Cloud logging.`
+- `Answer`
+	- `#D`
+- `Explanation`
+	- `Cloud logging`
+		- `Store, search, analyze, and monitor logs from various sources, including containers. `
+****
+
+
+##### Question - 125
+- `Statement`
+	* `An organization's web developers and operations personnel use different systems.`
+	* `How will increasing communications between the teams reduce issues caused by silos?`
+- `Options`
+	- `A. By assigning blame for failures and establishing consequences.`
+	- `B. By combining job role responsibilities to ensure that everyone has shared access.`
+	- `C. By increasing the data encryption to strenthen workflows.`
+	- `D. By emphasizing shared ownership of business outcomes.`
+- `Answer`
+	- `#D`
+****
+
+
+##### Question - 126
+`Tags: #Migration`
+- `Statement`
+	* `An organization is migrating their business applications form on-prem to cloud.`
+	* `How could this impact their operations and personnel costs?`
+- `Options`
+	- `A. Reduced on-prem infra management costs.`
+	- `B. Increased on-prem hardware maintenance costs.`
+	- `C. Reduced cloud software licensing costs.`
+	- `D. Increased cloud hardware management costs.`
+- `Answer`
+	- `#A`
+****
+
+
+##### Question - 127
+`Tags: #APIs`
+- `Statement`
+	* `A retail company stores their product inventory in a legacy system. Often customers find the products on the company's website and want to purchase them in-store. However when they arrive, they discover that the products are out of stock. `
+	* `How could company benefit from APIs?`
+- `Options`
+	- `A. Create personalized product recommendations for customers.`
+	- `B. To optimize their on-prem legacy system stability.`
+	- `C. By manually linking each inventory system to the website on a case-by-case basis.`
+	- `D. By programmatically connecting inventory system to website.`
+- `Answer`
+	- `#D`
+- `Explanation`
+	- `The issue is the website shows an item is available at the store, but when the customer gets to the store, they find out that item is out of stock. Hence #D`
+****
+
+
+##### Question - 128
+`Tags: #APIs`
+- `Statement`
+	* `A hotel wants to modernize their legacy systems so that the customers can make reservations through the mobile app. `
+	* `What's the benefit of using APIs to do this?`
+- `Options`
+	- `A. They do not have to develop the end-user application.`
+	- `B. They can deprecate their legacy system.`
+	- `C. They can transform their systems to the cloud-native.`
+	- `D. They do not have to rewrite the legacy system.`
+- `Answer`
+	- `#D`
+- `Explanation`
+	- `D -> An API is a software intermediary that allows two applications to talk to each other. In this case, the API would allow the hotel's legacy systems to talk to the mobile app. This means that the hotel would not have to rewrite their legacy systems`
+****
+
+
+##### Question - 129
+`Tags: #APIs`
+- `Statement`
+	* `An org has servers running mission critical workloads on-prem around the world. They want to modernize their infra with multi-cloud arch.`
+	* `What benefit an organization could get?`
+- `Options`
+	- `A. Ability to disable regional n/w connectivity during cyber attacks.`
+	- `B. Ability to keep backups of their data on-prem in case of failure.`
+	- `C. Full management access to their regional infra.`
+	- `D. Reduced likelihood of system failure during high demand events.`
+- `Answer`
+	- `#D`
+- `Explanation`
+	- `D -> As the are servers running in mission-critical workloads, so most advantageous organization benefit would be reduced system failure during high demand and peak.`
+****
+
+
+##### Question - 130
+`Tags: #GKE`
+- `Statement`
+	* `An org needs to run frequent updates for their business app.`
+	* `Why should the org use GKE?`
+- `Options`
+	- `A. Customer expectations can be adjusted without using marketing tools.`
+	- `B. Seamless changes can be made without causing any application downtime.`
+	- `C.GKE handles version control seamlessly and out of the box.`
+	- `D. GKE is well suited for all monolithic applications.`
+- `Answer`
+	- `#B`
+- `Explanation`
+	- `B -> Seamless changes can be made without causing any application downtime. Most Voted.`
+****
+
+
+##### Question - 131
+`Tags: #Apigee`
+- `Statement`
+	* `An org wants to use an Apigee to manage all their APIs.`
+	* `What will apigee enable to org to do?`
+- `Options`
+	- `A. Increase application privacy.`
+	- `B. Measure and track APIs performance.`
+	- `C.Analyse application development speed.`
+	- `D. Market and sell APIs.`
+- `Answer`
+	- `#B`
+- `Explanation`
+	- `B -> Apigee is an API management platform that helps organizations design, secure, deploy, monitor, and scale APIs.`
+****
+
+
+##### Question - 132
+`Tags: #unstructured data`
+- `Statement`
+	* `What is an example of unstructured data that org can capture from social media?`
+- `Options`
+	- `A. Post comments.`
+	- `B. Tagging.`
+	- `C. Profile picture.`
+	- `D. Location.`
+- `Answer`
+	- `#C`
+****
+
+
+##### Question - 133
+`Tags: #App Engine`
+- `Statement`
+	* `An org rellies on online seasonal sales for the majority of their annual revenue.`
+	* `Why should the org use App Engine for their customer app?`
+- `Options`
+	- `A. Auto adjust the physical inventory in real time.`
+	- `B. Autoscales during peaks in demand.`
+	- `C.Runs maintenance during seasonal sales.`
+	- `D. Recommends the right products to customers.`
+- `Answer`
+	- `#B`
+- `Explanation`
+	- `B -> PaaS allows org to deploy and scale their web apps automatically.`
+****
+
+
+##### Question - 134
+`Tags: #VPC`
+- `Statement`
+	* `Your org recently migrated its compute workload to google cloud. You want these workloads in the google cloud to privately and securely access your large volume of on-prem data, and you also want to minimize latency.`
+	* `What should org do?`
+- `Options`
+	- `A. Use storage transfer service to securely make your data available to google cloud.`
+	- `B. Create a VPC between your on-prem data center and your google cloud resources.`
+	- `C.Peer your on-prem data center to google's edge n/w.`
+	- `D. Use transfer appliance to securely make your data available to google cloud.`
+- `Answer`
+	- `#B`
+****
+
+
+##### Question - 135
+`Tags: #folders`
+- `Statement`
+	* `Your org consists of many teams. Each team has many Google Cloud Projects. Your org wants to simplify the management of identity and access policies for these projects.`
+	* `How can you group these projects to meet it's goal?`
+- `Options`
+	- `A. Group each team's project into a separate domain.`
+	- `B. Assign labels on the VMs that are part of each team's projects.`
+	- `C.Use folders to group each team's projects.`
+	- `D. Group team's projects into a separate org code.`
+- `Answer`
+	- `#C`
+- `Explanation`
+	- `Org -> Folder -> Project -> Resource`
+****
+
+##### Question - 136
+`Tags: #folders`
+- `Statement`
+	* `An org needs to categorize text-based customer reviews on their website using pre-trained ML model.`
+	* `What google cloud product or service should the org use?`
+- `Options`
+	- `A. Cloud natural language API.`
+	- `B. Dialogflow.`
+	- `C.Recommendations AI.`
+	- `D. TensorFlow.`
+- `Answer`
+	- `#A`
+****
+
+##### Question - 137
+`Tags: #Requestor Pays`
+- `Statement`
+	* `Your team is publishing research results and needs to make large amounts of data available to other researchers within the professional community and the public at minimum cost.`
+	* `How should you host the data?`
+- `Options`
+	- `A. Use a cloud storage bucket and enable "Requster Pays"`
+	- `B. Use cloud storage bucket and provide signed URLs for the data files.`
+	- `C.Use cloud storage bucket and set up a cloud interconnect connection to allow access to the data.`
+	- `D. Host the data on-prem, and set up a cloud interconnection to allow access to the data.`
+- `Answer`
+	- `#A`
+- `Explanation`
+	- `Enabling Requester Pays is useful, for example, if you have a lot of data you want to make available to users, but you don't want to be charged for their access to that data.`
+****
+
+##### Question - 138
+- `Statement`
+	* `Your company needs to segment Google cloud resources used by each team from the others. The teams' efforts are changing frequently, and you need to reduce operational risk and maintain cost visibility.`
+	* `Which approach does google recommends?`
+- `Options`
+	- `A. One project per team.`
+	- `B. One organization per team.`
+	- `C. One project that contains all of each team's resources.`
+	- `D. One top-level folder per team.`
+- `Answer`
+	- `#D`
+****
+
+##### Question - 139
+`Tags: #access`
+- `Statement`
+	* `Your org needs to restrict the access to a cloud storage bucket. Only employees who are based in canada should be allowed to view the contents.`
+	* `What is the most effective and effiecient way to satisfy your requirement?`
+- `Options`
+	- `A. Deploy the cloud storage bucket to a google cloud region in canada.`
+	- `B. Configure google cloud armor to allow access to the bucket only if IP is based on canada.`
+	- `C.Give each canadian employee an access to the bucket.`
+	- `D. Create a group consisting of all canada-based employees, and give the group access the bucket.`
+- `Answer`
+	- `#D`
+- `Explanation`
+	- `Correct answer is D. Question is tricky, but it says "based" in Canada. That is not the same as restricting access to "from Canada". An employee can for instance be based in Canada, but access the services while on business trip to Singapore..`
+****
+
+##### Question - 140
+`Tags: #private google access`
+- `Statement`
+	* `Your organization runs all its workloads on Compute Engine virtual machine instances. Your organization has a security requirement: the virtual machines are not allowed to access the public internet. The workloads running on those virtual machines need to access BigQuery and Cloud Storage, using their publicly accessible interfaces, without violating the security requirement.`
+	* `Which Google Cloud product or feature should your organization use?`
+- `Options`
+	- `A. Identity aware proxy.`
+	- `B. Cloud NAT (network address translation).`
+	- `C.VPC internal load balancers.`
+	- `D. Private google access.`
+- `Answer`
+	- `#D`
+- `Explanation`
+	- `NAT is option for securing Internet connection which is not ask. VM and other components are in cloud.`
+****
