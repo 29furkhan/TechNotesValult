@@ -2341,3 +2341,173 @@
 - `Answer`
 	- `#C`
 ****
+
+
+
+##### Question - 144
+`Tags: #Vertex AI`
+- `Statement`
+	* `You work for an e-commerce website and want to use a product that can predict users' purchasing behavior and suggests products based on the behavior.`
+	* `Which of the following Google cloud AI solutions would you recommend?`
+- `Options`
+	- `A. Vertex AI Matching Engine.`
+	- `B. Vertex AI.`
+	- `C. Vertex Explainable AI.`
+	- `D. Vertex AI workbench.`
+- `Answer`
+	- `#A`
+- `Explanation`
+	- `#A -> Finds the similar items in large datasets quickly including text, images, and audio.`
+****
+
+##### Question - 145
+`Tags: #IaaS`
+- `Statement`
+	* `You are a CTO helping an org to modernize its IT infra by adopting google's cloud services. Which of the following is an advantage of an IaaS model that you should consider when choosing solution?`
+- `Options`
+	- `A. Web application security is managed by Google.`
+	- `B. IT costs change from operational to capital expenditures.`
+	- `C. Google assumes responsibility for server maintenance.`
+	- `D. Data storage and encryption become the responsibility of the org.`
+- `Answer`
+	- `#C`
+- `Explanation`
+	- `#A -> Finds the similar items in large datasets quickly including text, images, and audio.`
+****
+
+
+##### Question - 146
+`Tags: #Local SSDs`
+- `Statement`
+	* `A MNC retail corporation plans to migrate its on-prem inventory management system to Google Cloud. The current inventory management system has experienced performance issues that are result of very high IOPS.`
+	* `How can org increase performance and decrease latency by moving to Google Cloud?`
+- `Options`
+	- `A. Use Local SSDs.`
+	- `B. Use SSD disks.`
+	- `C. Use standanrd persistent disks.`
+	- `D. Use balanced persistent disks.`
+- `Answer`
+	- `#A`
+- `Explanation`
+	- `#A -> Local SSDs offer the highest IOPS and the lowest latency because the storage is directly attached to the virtual machine.`
+****
+
+##### Question - 147
+`Tags: #PaaS`
+- `Statement`
+	* `You are leading a team of developers on project whose goal is to improve customer experience on credit card company's website.The solution requires custom code without the overhead of managing OS or infra.`
+	* `Which of the following offering would suggest for your client?`
+- `Options`
+	- `A. IaaS.`
+	- `B. PaaS.`
+	- `C. On-prem.`
+	- `D. SaaS.`
+- `Answer`
+	- `#B`
+- `Explanation`
+	- `#B -> PaaS gives you env to develop and also allows you to manage code.`
+
+****
+
+##### Question - 148
+`Tags: #Cloud Billing Budgets`
+- `Statement`
+	* `You work for a ridesharing company that has recently moved to Google Cloud. Jack, the senior manager of the corporate accounting group is worried about the bill and wants to track actual Google Cloud spend against planned spend. Jack also wants to receive alerts via email when certain budget expenditures are reached.`
+	* `Which of the following actions should Jack take to meet these requirements?`
+- `Options`
+	- `A. Create Cloud Billing Budgets, set a budget amount, and set budget alert threshold rules.`
+	- `B. Use Cloud Billing Reports with Google Data Studio.`
+	- `C. Use Cloud Billing data export to BigQuery functionality with Google Data Studio.`
+	- `D. Create a Cloud Billing account, set a budget amount, and set budget alert threshold rules.`
+- `Answer`
+	- `#A`
+- `Explanation`
+	- `#A -> `
+		- `Helps customers to monitor Google cloud charges in one place.`
+		- `Tracking of actual spends vs planned spend.`
+
+****
+
+##### Question - 149
+`Tags: #BigTable`
+- `Statement`
+	* `Which of the following is a use of BigTable?`
+- `Options`
+	- `A. SQL support for an online transaction processing system.`
+	- `B. Interactive querying in an online analytical processing system.`
+	- `C. Real-time data sync between users.`
+	- `D. NoSQL data operations for large analytical and operational workloads.`
+- `Answer`
+	- `#D`
+- `Explanation`
+	- `#D -> `
+		- `Fully managed NoSQL DB.`
+		- `Designed for large scaled apps.`
+		- `High throughput and and low latency.`
+		- `It's a DB for large analytical and operational workloads.`
+
+****
+
+##### Question - 150
+`Tags: #Object Lifecycle Management`
+- `Statement`
+	* `A wearable startup collecting the health data of its users is adding approximately 50 TBS of data every month. The data is expected to grow to 200+ TB every year.`
+	* `It is observed that the users are primarily concerned with the last 30 days of data and are ready to wait for data retrieval if data is older than 30 Days.`
+	* `The company has decided that they will now store infrequently accessed data that is older than 30 days to minimize the cost, as this data is typically accessed no more than once per quarter.`
+	* `To minimize manual intervention when moving data older than 30 days to Coldline storage from Standard storage, what should the company do?`
+- `Options`
+	- `A. Configure object lifecycle management.`
+	- `B. Write a code and schedule it using Cloud Scheduler..`
+	- `C. Configure Cloud Scheduler to move data on required conditions.`
+	- `D. Configure an Object Lifecycle Management job using Cloud Scheduler.`
+- `Answer`
+	- `#A`
+- `Explanation`
+	- `#A -> `
+		- `Movement of data from one storage class to another could be automated by configuring object lifecycle management.`
+		- `Object lifecycle management allows the company setup rules that transfer objects from one storage to another based on age of data.`
+****
+
+
+##### Question - 151
+`Tags: #data security, #shared responsibility`
+- `Statement`
+	* `Which areas are the responsibility of the customer for SaaS, PaaS, and IaaS services? (2 answers)`
+- `Options`
+	- `A. Devices (Mobile and PCs)`
+	- `B. Information and Data.`
+	- `C. Physical n/w.`
+	- `D. Physical security of data center.`
+- `Answer`
+	- `#A and #B`
+- `Explanation`
+	- `#A -> `
+		- `Customer to take care od devices used to access cloud services.`
+	* `#B -> `
+		* `In all models, data is customer's responsibility. `
+	* `#Why not C? -> In SaaS and PaaS, n/w is managed by GCP. and same goes for D, all models data center is responsibility of GCP.`
+
+****
+
+
+##### Question - 152
+`Tags: #RBAC`
+- `Statement`
+	* `An org is developing a business-critical application using Google App Engine. Which of the following should the org expect to do? (2 answers)`
+- `Options`
+	- `A. Establish role based access policies.`
+	- `B. Encrypt data at rest.`
+	- `C. Monitor applications' security.`
+	- `D. Maintain n/w security.`
+- `Answer`
+	- `#A and #C`
+- `Explanation`
+	- `#A -> `
+		- `Enforce RBAC (role based access control) policies to manage user permissions to access different parts of the application making sure authorized people has access.`
+	* `#C -> `
+		* `Detect and respond to potential threats and vulnerabilities. `
+	* `#Why not B and D? -> N/w is managed by google cloud so not D and encrypting the data is google's job.`
+
+****
+
+****
