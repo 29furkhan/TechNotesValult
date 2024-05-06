@@ -2509,5 +2509,195 @@
 	* `#Why not B and D? -> N/w is managed by google cloud so not D and encrypting the data is google's job.`
 
 ****
+##### Question - 153
+`Tags: #horizontal scaling, load-balancing`
+- `Statement`
+	* `You have joined a growing company that offers online constume rentals through its website and mobile applications. Although the volume of rental requests varies throughout the year, it peaks during the holiday season from october through january. The head of the AppDev team has called for suggestions on scaling the systems to meet spikes in demand without posing a risk to uptime.`
+	* `Which of the following solutions would best meet the requirements?`
+- `Options`
+	- `A. Scale the systems vertically.`
+	- `B. Increase the number of servers.`
+	- `C. Scale the system horizontally.`
+	- `D. Implement load-balancing.`
+- `Answer`
+	- `#C`
+- `Explanation`
+	- `#C -> Horizontal scaling involves adding more instances or servers to the existing system to distribute the load and handle increased demand.`
+	- `Load balancing do not provision addition or removal of resources. It evenly distributes incoming traffic across multiple servers or instances, ensuring no single server is overwhelmed`
+****
+##### Question - 154
+`Tags: #private google access`
+- `Statement`
+	* `You are working on an enhancement project that requires the existing application to access the analytics report data from the analytics reporting AI. The application is hosted on a VM with IP address and no external IP address.`
+	* `What should you do to access the analytics reporting API?`
+- `Options`
+	- `A. Disable private google access.`
+	- `B. Enable private google access.`
+	- `C. Ensure that VM interface has an external IP address assigned.`
+	- `D. Ensure that the VM interface is connected to a subnet where private google access is disabled.`
+- `Answer`
+	- `#B`
+- `Explanation`
+	- `#B -> - Enabling private Google access allows the VM to access Google services (including the analytics reporting API) without the need for an external IP address. This is achieved by routing traffic from the VM's internal IP address through a VPC (Virtual Private Cloud) network to Google services.`
+****
+##### Question - 155
+`Tags: #public cloud`
+- `Statement`
+	* `What would provide near-unlimited availability of computing resources without requiring your org to procure and provision new equipment?`
+- `Options`
+	- `A. Public cloud.`
+	- `B. Containers.`
+	- `C. Private cloud.`
+	- `D. Microservices.`
+- `Answer`
+	- `#A`
+****
+##### Question - 156
+`Tags: #roles`
+- `Statement`
+	* `In google cloud platform, you control which permissions are granted to your users by assigning _______ ?`
+- `Options`
+	- `A. Roles.`
+	- `B. access lists.`
+	- `C. authentications.`
+	- `D. resources.`
+- `Answer`
+	- `#A`
+- `Explanation`
+	- `A -> Roles define a collection of permissions that allow users to perform specific actions on resources. By assigning roles to users, groups, or service accounts, you control what access and permissions they have in your cloud environment.`
+****
+##### Question - 157
+`Tags: #roles, #types-of-roles`
+- `Statement`
+	* `Which of the following options is not one of the three main types of roles in GCP?`
+- `Options`
+	- `A. basic.`
+	- `B. composite.`
+	- `C. custom.`
+	- `D. predefined.`
+- `Answer`
+	- `#B`
+- `Explanation`
+	- `3 main types of roles in GCP`
+		- `Basic roles` 
+			- `These roles include Owner, Editor, and Viewer, which grant broad permissions to manage resources.`
+		- `Custom roles` 
+			- `These roles allow you to create and define your own roles with specific permissions tailored to your needs.`
+		- `Predefined roles`
+			- `These roles are provided by Google Cloud and are tailored to specific services or tasks, offering a more granular set of permissions than basic roles.`
+****
+##### Question - 158
+`Tags: #projects`
+- `Statement`
+	* `Which of the following statements about GCP is false?`
+- `Options`
+	- `A. When creating a new project, you are asked to pick a location.`
+	- `B. Permissions can always be changed after they are assigned.`
+	- `C. A project marked for deletion is immedietly deleted.`
+	- `D. If you already have AD or LDAP, you can use Google Cloud Directory sync to automatically replicate them to google cloud identity.`
+- `Answer`
+	- `#C`
+- `Explanation`
+	- `Project is marked for 30 days before actual deletion.`
+****
+##### Question - 159
+`Tags: #spending`
+- `Statement`
+	* `Which of the following statements about billing in Google cloud platform is false?`
+- `Options`
+	- `A. Google has a free tier, which gives you limited access to some GCP services.`
+	- `B. Setting a budget creates a hard cap on spending.`
+	- `C. Disabling billing stops automatic payments.`
+	- `D. When you disable billing, you are still responsible for all outstanding charges for the project.`
+- `Answer`
+	- `#B`
+- `Explanation`
+	- `Setting a budget does not create a hard cap on spending.`
+****
+##### Question - 160
+`Tags: #budgets`
+- `Statement`
+	* `In the google cloud platform, _______ are used for generating alerts when costs begin to rise?`
+- `Options`
+	- `A. billing monitors.`
+	- `B. billing queries.`
+	- `C. budgets.`
+	- `D. billing exports.`
+- `Answer`
+	- `#C`
+- `Explanation`
+	- `Budgets are used for generating alerts when costs begin to rise.`
+****
 
+##### Question - 161
+`Tags: #alerts`
+- `Statement`
+	* `In google cloud platform, by default, adminstrators and users with billing acount roles will receive email alerts when the amont spent exceeds ____, ____, and _____ percent of the budget?`
+- `Options`
+	- `A. 25, 50, 100.`
+	- `B. 50, 90, 100.`
+	- `C. 25, 50, 75.`
+	- `D. 50, 75, 100.`
+- `Answer`
+	- `#B`
+****
+
+##### Question - 162
+`Tags: #project`
+- `Statement`
+	* `Which of the following statements about the project names and IDs in google cloud platform is false?`
+- `Options`
+	- `A. It is possible to pick your own project ID.`
+	- `B. The project ID must be globally unique.`
+	- `C. The project Name must be globally unique.`
+	- `D. The project name can be changed at any time.`
+- `Answer`
+	- `#C`
+- `Explanation`
+	- `Project name can be anything you want, it need not be unique. The project ID need to be gloablly unique not the name.`
+****
+
+##### Question - 163
+`Tags: #billing-exports`
+- `Statement`
+	* `In GCP ______ are detailed copies of your charges that live inside BigQuery DB.`
+- `Options`
+	- `A. Billing monitors.`
+	- `B. Billing queries.`
+	- `C. Budgets.`
+	- `D. Billing exports.`
+- `Answer`
+	- `#D`
+- `Explanation`
+	- `- Billing exports refer to the process of exporting your billing data to BigQuery for analysis. This allows you to analyze and query detailed billing information, including resource usage and charges, within BigQuery.`
+****
+
+##### Question - 164
+`Tags: #compute-browser`
+- `Statement`
+	* `Which google cloud platform predefined role only allows the user to view the current compute resources?`
+- `Options`
+	- `A. Computer viewer.`
+	- `B. Computer security admin.`
+	- `C. Compute admin.`
+	- `D. Compute browser.`
+- `Answer`
+	- `#D`
+- `Explanation`
+	- `- The Compute Browser role is designed to allow users to view compute resources, such as virtual machine instances, without granting any permissions to make changes to them.`
+****
+
+##### Question - 165
+`Tags: #least-privelge`
+- `Statement`
+	* `Which of the following statements about adding users GCP is false?`
+- `Options`
+	- `A. It is generally recommeneded that you avoid using basic roles, especially in prod environment.`
+	- `B. You can manually create new user accounts.`
+	- `C. It is recommened to begin by assigning the maximum amount of permissions at first, then take unnecessary ones away later.`
+	- `D. You have full control over which permissions are granted to your users.`
+- `Answer`
+	- `#C`
+- `Explanation`
+	- `This statement is false because it is contrary to the principle of least privilege, which is a best practice in security management.`
 ****
